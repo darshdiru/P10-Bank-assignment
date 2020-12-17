@@ -1,0 +1,50 @@
+@import "./common/colors.scss";
+
+.filter {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.splitBox {
+  border-top: 1px solid $gray;
+  border-bottom: 1px solid $gray;
+  margin-bottom: 10px;
+}
+.splitBox p {
+  text-align: left;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.square:checked {
+  background-color: $green;
+}
+
+.checkboxRounded,
+.square {
+  background-color: $white;
+  width: 1.3em;
+  height: 1.3em;
+  vertical-align: middle;
+  border: 1px solid $green;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  font-weight: bold;
+}
+
+.checkboxRounded {
+  border-radius: 50%;
+}
+
+.checkboxRounded:checked {
+  background-color: $green;
+}
+
+.loading {
+  color: $blue;
+}
+
+.error {
+  color: $red;
+}

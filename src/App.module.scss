@@ -1,0 +1,24 @@
+@import "./common/colors.scss";
+
+header {
+  color: $white;
+  background-color: $darkblue;
+  height: 4rem;
+}
+
+main { padding: 5px;}
+
+.wrapper {
+  text-align: center;
+  width: 50%;
+  margin: 30px auto;
+  background-color: $primary;
+  border-left: 1px solid $primary;
+
+.head {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+}
